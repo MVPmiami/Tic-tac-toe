@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/github.io/tic-tac-toe.git/static/css/main.8f6a690c.chunk.css",
-    "main.js": "/github.io/tic-tac-toe.git/static/js/main.4da1b0ec.chunk.js",
-    "main.js.map": "/github.io/tic-tac-toe.git/static/js/main.4da1b0ec.chunk.js.map",
-    "runtime-main.js": "/github.io/tic-tac-toe.git/static/js/runtime-main.42360006.js",
-    "runtime-main.js.map": "/github.io/tic-tac-toe.git/static/js/runtime-main.42360006.js.map",
-    "static/js/2.c6e425a9.chunk.js": "/github.io/tic-tac-toe.git/static/js/2.c6e425a9.chunk.js",
-    "static/js/2.c6e425a9.chunk.js.map": "/github.io/tic-tac-toe.git/static/js/2.c6e425a9.chunk.js.map",
-    "index.html": "/github.io/tic-tac-toe.git/index.html",
-    "static/css/main.8f6a690c.chunk.css.map": "/github.io/tic-tac-toe.git/static/css/main.8f6a690c.chunk.css.map",
-    "static/js/2.c6e425a9.chunk.js.LICENSE.txt": "/github.io/tic-tac-toe.git/static/js/2.c6e425a9.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/github.io/tic-tac-toe.git/static/media/background.3bcea9c0.jpg"
+    "main.css": "/github.io/tic-tac-toe/static/css/main.09fe6800.chunk.css",
+    "main.js": "/github.io/tic-tac-toe/static/js/main.4da1b0ec.chunk.js",
+    "main.js.map": "/github.io/tic-tac-toe/static/js/main.4da1b0ec.chunk.js.map",
+    "runtime-main.js": "/github.io/tic-tac-toe/static/js/runtime-main.0c8b7727.js",
+    "runtime-main.js.map": "/github.io/tic-tac-toe/static/js/runtime-main.0c8b7727.js.map",
+    "static/js/2.c6e425a9.chunk.js": "/github.io/tic-tac-toe/static/js/2.c6e425a9.chunk.js",
+    "static/js/2.c6e425a9.chunk.js.map": "/github.io/tic-tac-toe/static/js/2.c6e425a9.chunk.js.map",
+    "index.html": "/github.io/tic-tac-toe/index.html",
+    "static/css/main.09fe6800.chunk.css.map": "/github.io/tic-tac-toe/static/css/main.09fe6800.chunk.css.map",
+    "static/js/2.c6e425a9.chunk.js.LICENSE.txt": "/github.io/tic-tac-toe/static/js/2.c6e425a9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/github.io/tic-tac-toe/static/media/background.3bcea9c0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.42360006.js",
+    "static/js/runtime-main.0c8b7727.js",
     "static/js/2.c6e425a9.chunk.js",
-    "static/css/main.8f6a690c.chunk.css",
+    "static/css/main.09fe6800.chunk.css",
     "static/js/main.4da1b0ec.chunk.js"
   ]
 }
