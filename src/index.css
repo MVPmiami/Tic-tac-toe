@@ -29,7 +29,7 @@ code {
 .main-container{
   width: 600px;
   height: 600px;
-  background-color: #9fa4a7cc;
+  background-color: hsla(202, 4%, 64%, 0.1);
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -40,7 +40,7 @@ code {
 .game-desktop{
   width: 600px;
   height: 600px;
-  background-color: #9fa4a7cc;
+  background-color: #525455cc;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -50,7 +50,7 @@ code {
 .box{
   width: 200px;
   height: 200px;
-  background-color: #9fa4a7cc;
+  background-color: hsla(202, 4%, 64%, 1);
   z-index: 10;
   text-align: center;
   box-sizing: border-box;
