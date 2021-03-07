@@ -1,12 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Desktop from './Desktop';
-
+import App from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Desktop />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <App/>,document.getElementById('root')
 );
