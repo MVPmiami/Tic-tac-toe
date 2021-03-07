@@ -20,7 +20,7 @@ export default function VictoryWindow (props){
     return(
         <div className="victory-window">
             <h1>WIN: {winner}</h1>
-            <button className="go-to-menu-btn" onClick={goToMenu}>Выйти в меню</button>
+            <button className="go-to-menu-btn" onClick={goToMenu}>Back to menu</button>
         </div>
     )
 }

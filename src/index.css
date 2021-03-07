@@ -128,10 +128,13 @@ code {
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 400px;
-    max-height: 667px;
+    min-width: 400px;
+    height: 667px;
     overflow-x: hidden;
     overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .game-desktop{
@@ -165,6 +168,7 @@ code {
     justify-content: flex-start;
     z-index: 9;
     position: relative;
+    left: -12px;
   }
 
   .new-game-btn {
@@ -185,5 +189,11 @@ code {
   .go-to-menu-btn{
     top: 250px;
     left:calc(75px / 2);
+  }
+  .root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
 }
