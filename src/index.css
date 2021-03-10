@@ -119,6 +119,29 @@ code {
   transition: 0.2s;
 }
 
+.add-ai-btn {
+  width: 300px;
+  height: 50px;
+  top: 250px;
+  left:150px;
+  position: absolute;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #5ff878 #000 #0edb2a;
+  border-radius: 6px;
+  background: linear-gradient(#5ff878, #0edb2a) #0edb2a;
+}
+
+.ai-enabled{
+  background: linear-gradient(#f3500f, #e32416) #e31616;
+  border-color: #fd4b33 #000 #d70d06;
+}
+
 .go-to-menu-btn:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
 .go-to-menu-btn:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
 
@@ -173,6 +196,11 @@ code {
 
   .new-game-btn {
     top: 150px;
+    left:calc(75px / 2);
+  }
+
+  .add-ai-btn {
+    top: 220px;
     left:calc(75px / 2);
   }
 

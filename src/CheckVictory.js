@@ -41,5 +41,9 @@ export default function checkVictory (valuesOfBoxes, isWin, setIsWin, winner, se
         setIsWin(isWin = true)
         setWinner(winner = result[2])
         result = ['','','','','','','','',''];
+    }else if(result[0] !== '' && result[1] !== '' && result[2] !== '' && result[3] !== '' && result[4] !== '' && result[5] !== '' &&result[6] !== '' && result[7] !== '' && result[8] !== '' ){
+        setIsWin(isWin = true)
+        setWinner(winner = 'DRAW')
+        result = ['','','','','','','','',''];
     }
 }

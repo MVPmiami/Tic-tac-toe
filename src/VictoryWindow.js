@@ -5,13 +5,14 @@ export default function VictoryWindow (props){
     let winner = props.winner;
     let isgame = props.isgame;
     let valuesOfBoxes = props.valuesOfBoxes;
-    console.log(winner)
+    let isAi = props.isAI;
 
     function goToMenu() {
         props.setIsGame(isgame = false);
         props.setIsWin(isWin = false);
         props.setWinner(winner = null);
-        props.setValuesOfBoxes(valuesOfBoxes = [[],[],[],[],[],[],[],[],[]])
+        props.setValuesOfBoxes(valuesOfBoxes = [[],[],[],[],[],[],[],[],[]]);
+        props.setIsAI(isAi = false);
     }
 
 
