@@ -29,7 +29,7 @@ code {
 .main-container{
   width: 600px;
   height: 600px;
-  background-color: #9fa4a7cc;
+  background-color: hsla(202, 4%, 64%, 0.1);
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -40,7 +40,7 @@ code {
 .game-desktop{
   width: 600px;
   height: 600px;
-  background-color: #9fa4a7cc;
+  background-color: #525455cc;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -50,7 +50,7 @@ code {
 .box{
   width: 200px;
   height: 200px;
-  background-color: #9fa4a7cc;
+  background-color: hsla(202, 4%, 64%, 1);
   z-index: 10;
   text-align: center;
   box-sizing: border-box;
@@ -119,5 +119,118 @@ code {
   transition: 0.2s;
 }
 
+.add-ai-btn {
+  width: 300px;
+  height: 50px;
+  top: 250px;
+  left:150px;
+  position: absolute;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #5ff878 #000 #0edb2a;
+  border-radius: 6px;
+  background: linear-gradient(#5ff878, #0edb2a) #0edb2a;
+}
+
+.ai-enabled{
+  background: linear-gradient(#f3500f, #e32416) #e31616;
+  border-color: #fd4b33 #000 #d70d06;
+}
+
 .go-to-menu-btn:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
 .go-to-menu-btn:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+@media(max-width:375px){
+  body {
+    background-image: url('../src/img/background-for-iphone7.jpg');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 400px;
+    height: 667px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .game-desktop{
+    width: 360px;
+    height: 360px;
+    background-color: #525455cc;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    z-index: 9;
+  }
+
+  .box{
+    width: 120px;
+    height: 120px;
+    background-color: hsla(202, 4%, 64%, 1);
+    z-index: 10;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 80px;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .main-container{
+    width: 360px;
+    height: 360px;
+    background-color: hsla(202, 4%, 64%, 0.1);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    z-index: 9;
+    position: relative;
+    left: -12px;
+  }
+
+  .new-game-btn {
+    top: 150px;
+    left:calc(75px / 2);
+  }
+
+  .add-ai-btn {
+    top: 220px;
+    left:calc(75px / 2);
+  }
+
+  .victory-window{
+    text-align: center;
+    width: 360px;
+    height: 360px;
+    background-color: #9fa4a7;
+    position: absolute;
+    z-index: 10;
+    font-size: 48px;
+  }
+
+  .go-to-menu-btn{
+    top: 250px;
+    left:calc(75px / 2);
+  }
+  .root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .victory-window{
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    background-color: #9fa4a7;
+    position: absolute;
+    z-index: 10;
+    font-size: 24px;
+  }
+}
