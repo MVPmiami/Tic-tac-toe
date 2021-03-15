@@ -95,7 +95,7 @@ export default function App() {
             <button className="new-game-btn" onClick={startGame}>New Game</button>
             <button className="add-ai-btn" onClick={changeColorButton}>Add AI</button>
             <Game isGame={isgame}/>
-            <VictoryWindow isWin={isWin} winner={winner} setIsWin = {setIsWin} setWinner={setWinner} isgame={isgame} setIsGame={setIsGame} valuesOfBoxes={valuesOfBoxes} setValuesOfBoxes={setValuesOfBoxes} setIsAI={setIsAI}/>
+            <VictoryWindow isWin={isWin} winner={winner} setIsWin = {setIsWin} setWinner={setWinner} isgame={isgame} setIsGame={setIsGame} valuesOfBoxes={valuesOfBoxes} setValuesOfBoxes={setValuesOfBoxes} setIsAI={setIsAI} setTicTac = {setTicTac} />
         </div>
     )
 }

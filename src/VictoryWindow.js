@@ -13,6 +13,7 @@ export default function VictoryWindow (props){
         props.setWinner(winner = null);
         props.setValuesOfBoxes(valuesOfBoxes = [[],[],[],[],[],[],[],[],[]]);
         props.setIsAI(isAi = false);
+        props.setTicTac('Х');
     }
 
 
